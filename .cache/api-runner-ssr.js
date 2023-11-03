@@ -1,4 +1,8 @@
 var plugins = [{
+      name: 'gatsby-plugin-image',
+      plugin: require('/Users/c.higroup/Develop/Gaetano/my-gatsby-site/node_modules/gatsby-plugin-image/gatsby-ssr.js'),
+      options: {"plugins":[]},
+    },{
       name: 'partytown',
       plugin: require('/Users/c.higroup/Develop/Gaetano/my-gatsby-site/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
